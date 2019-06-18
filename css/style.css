@@ -30,6 +30,17 @@ body, html{
     text-transform:uppercase;
 }
 
+.loader {
+    position: absolute;
+    top:45%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    font-size: 21px;
+}
+
 .text h1{
     color: #fff;
     font-size: 40px;
