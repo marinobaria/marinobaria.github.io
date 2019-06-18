@@ -1,0 +1,93 @@
+body, html{
+    height:100%;
+    margin: 0%;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    letter-spacing:2px;
+    line-height: 1.8em;
+    color: #666;
+    
+}
+
+.name{
+    background-image:url('../img/image1.jpeg');
+    min-height: 100%;
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment:fixed;  
+}
+
+.text{
+    position: absolute;
+    top:45%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+
+.text h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.text span {
+    color: #fff;
+    font-size: 21px;
+
+}
+.text h1,.text span {
+    text-shadow: 3px 3px 10px rgb(44, 44, 44);
+}
+
+.aboutme{
+    background-color: #fff;
+    min-height: 40%;
+}
+.aboutmetext{
+    position: relative;
+    color: rgb(59, 59, 59);
+    padding: 80px 45px;
+    font-size: 13px;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.educationexperience {
+    padding: 80px 45px;
+    min-height: 40%;
+    background-color: beige;
+
+}
+.education h1, .experience h1{
+    text-transform:uppercase;
+    text-align: left;
+    font-size:  35px;
+}
+.education, .experience{
+    position: relative;
+    width:100%;
+    text-align:left;
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+
+.works{
+    min-height: 60%;
+    background-color: white; 
+}
+
+.githubrepo{
+    padding: 80px 45px;
+}
+
+
+
+
+
+  
+  
